@@ -1,0 +1,10 @@
+Why is a tree appropriate for the doctor structure?
+A tree is appropriate for the dotor structrue because we want to process all the doctors in an organized hierachical order. It is important that the doctor management structure is correct, to see what staff is beneath them. This structrue would make it easy for doctors to communicate in a specific order and to trace back trough the structure. This is important especially in critical medical situations. 
+
+When might a software engineer use preorder, inorder, or postorder traversals?
+Preorder Traversals (Root → Left → Right), when the root matters the most. So for example when get a structure of a folder
+Inorder Traversals (Left → Root → Right), when data needs to be processed in sorted orders
+Postorder Traversals (Left → Right → Root), when we need to access the bottom leafs first, for example to free up space in trees 
+
+How do heaps help simulate real-time systems like emergency intake?
+Heap help by organizing the task based on urgency level. For instance, someone that needs help for bleeding out is more important than helping with a splinter in his or her finger. Heaps automatically sort tasks based on the emergency.
